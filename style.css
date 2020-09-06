@@ -111,8 +111,9 @@ background: #89b0ae;
 
 
 /* About */
-.jumbotron {
+#about {
     background: #faf9f9;
+    margin-bottom: 3.5rem;
 }
 .profile-picture {
     height: 90%;
@@ -178,4 +179,34 @@ hr.socket {
 }
 .contact-footer {
     line-height: 1.75rem;
+}
+.contact-icons {
+    max-height: 5rem;
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+}
+
+
+/* Media Queries */
+@media (max-width: 767px) {
+    .navbar-brand img {
+        height: 1.25rem;
+    }
+    .caption h1 {
+        font-size: 2.3rem;
+        letter-spacing: 0.15rem;
+        padding-bottom: 0.5rem;
+    }
+    .btn-lg {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+    }
+    .narrow {
+        font-size: 1.5rem;
+    }
+    .profile-picture {
+        max-width: 95%;
+        display: block;
+        margin: 0;
+    }
 }
