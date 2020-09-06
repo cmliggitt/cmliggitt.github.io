@@ -1,12 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Christie Github</title>
+    <link rel="icon" href="images/logo.png" type="image/icon type">
+    <meta name="description" content="Budding web developer and designer looking to get her portfolio out to the world.">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Fixed CSS -->
+    <link rel="stylesheet" href="fixed.css">
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Hello World</h1>
-    <p>In progress...</p>
+
+<!-- Nav -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#"><img src="images/logo.png" class="img-fluid" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+<!-- End Nav -->
+
+<!-- Landing -->
+    <div id="home" class="landing">
+        <div class="home-wrap">
+            <div class="home-inner">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="caption text-center">
+        <h1>Budding web designer and developer</h1>
+        <a class="btn btn-secondary btn-lg" href="#about">Learn More</a>
+    </div>
+<!-- End Landing -->
+
+<!-- About -->
+    <div id="about" class="offset">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4 text-center">About the designer</h1>
+                <div class="row">
+                    <div class="col-6"><img src="images/profpic square.png" alt="Picture of the designer/developer" class="profile-picture"></div>
+                    <div class="col-6">
+                        <p class="about">
+                            Hello and welcome to my webpage. I am a self-proclaimed web designer and developer that will be a recent graduate come January 2021 with a Bachelors degree in Information Technology.
+                        </p>
+    
+                        <p class="about">
+                            I have always had an interest in web designing and developing since the days of Myspace when building that perfect profile look required you to learn how to code your own HTML. It opened a can of worms for my love of building websites since then. 
+                        </p>
+    
+                        <p class="about">
+                            Most of my experience has been in HTML and CSS when creating websites. I have slightly dabbed in JavaScript and Python3 but I will be diving into those languages as soon as I can. I am able to also build responsive websites and I love using Bootstrap4 to build. 
+                        </p>
+    
+                        <p class="about">
+                            I am always ready for the next challenge that will test my skills and help me learn new things. 
+                        </p>
+    
+                        <p class="quote font-italic">"Learning is a constant process of discovery - a process without end." - Bruce Lee</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- End About -->
+
+<!-- Portfolio -->
+    <div id="portfolio" class="offset">
+        <div class="fixed-background">
+            <div class="row dark text-center">
+                <div class="col-12">
+                    <h1 class="display-4 text-center">Portfolio</h1>
+                    <div class="heading-underline"></div>
+                </div>
+    
+                <div class="col-md-4">
+                    <div class="r-feature">
+                        <img src="images/WCC Screenshot.png" alt="Wilderness Christian Camp Screen Screenshot" class="screenshot">
+                        <a class="btn btn-secondary btn-md" href="https://www.wildernesschristiancamp.org/" target="_blank">wilderness Christian Camp</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="r-feature">
+                        <img src="/images/coming-soon-FINISHED.jpg" alt="coming soon" class="screenshot">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="r-feature">
+                        <img src="/images/coming-soon-FINISHED.jpg" alt="coming soon" class="screenshot">
+                    </div>
+                </div>
+    
+            </div> <!--End Row Dark-->
+            <div class="fixed-wrap">
+                <div class="fixed">
+                    
+                </div>
+            </div>
+        </div> 
+    </div>
+<!-- End Portfolio -->
+
+<!-- Contact -->
+<div id="contact" class="offset">
+    <footer>
+        <div class="row justify-content-center">
+            <div class="col-md-5 text-center">
+                <img src="images/logo.png" alt="logo" class="img-fluid">
+                <p class="contact-footer">
+                <strong>Contact Info</strong><br>
+                Christie Liggitt</p>
+                <div class="contact-links">
+                    <a href="https://www.linkedin.com/in/cmliggitt/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:cmliggitt@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <hr class="socket">
+            &copy; Designed by Christie Liggitt
+        </div>
+    </footer>
+</div>
+<!-- End Contact -->
+
+
+
+
+
+    <!-- JS Boostrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
 </body>
+
 </html>
