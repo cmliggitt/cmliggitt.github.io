@@ -30,12 +30,15 @@
     <style>
       body {
         background-color: #eaeaea;
+        max-width: 50%;
+        margin: 0 auto;
       }
       h1 {
         color: #ff2e63;
       }
       h3 {
         color: #444f5a;
+        text-align: center;
       }
       p {
         color: #252a34;
@@ -47,34 +50,50 @@
       a:hover {
         color: #ff2e63;
       }
+      hr {
+        border-style: none;
+        border-top-style: dotted;
+        border-color: white;
+        border-width: 7px;
+        width: 30%;
+      }
+      img {
+        height: 200px
+      }
+      table {
+        max-width: 100%;
+        margin: 0 auto;
+      }
+      thead {
+        text-align: center;
+      }
+      footer {
+        text-align: center;
+      }
+      .heading {
+        margin: 0 auto;
+        text-align: center;
+      }
     </style>
   </head>
 
 
   <body>
-    <table cellspacing="20">
-      <tr>
-        <td>
-          <img
-            src="profile-circle.png"
-            alt="Christie Profile Picture"
-            height="200"
-          />
-        </td>
-        <td>
-          <h1>Christie Liggitt</h1>
-          <p>
-            <em
-              >Passionate and self-motivated <strong>web developer</strong></em
-            >
-          </p>
-          <p>
-            Web developer 💻, lover of coffee ☕, and a self-proclaimed geek 🤓.
-          </p>
-        </td>
-      </tr>
-    </table>
-
+    <div class="heading">
+      <img
+              src="profile-circle.png"
+              alt="Christie Profile Picture"
+            />
+            <h1>Christie Liggitt</h1>
+            <p>
+              <em
+                >Passionate and self-motivated <strong><br>web developer</strong></em
+              >
+            </p>
+            <p>
+              Web developer 💻, lover of coffee ☕, and a self-proclaimed geek 🤓.
+            </p>
+    </div>
     <hr />
 
     <h3>Education</h3>
@@ -110,17 +129,20 @@
       <thead>
         <tr>
           <th>Dates</th>
-          <th>Work</th>
+          <th>Job Title</th>
+          <th>Place of Employment</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <td>2016 - 2021</td>
-          <td>Lab Clerk | Bard Optical</td>
+          <td>Lab Clerk</td>
+          <td>Bard Optical</td>
         </tr>
         <tr>
           <td>2015</td>
-          <td>Collector | Convergent Healthcare Recoveries</td>
+          <td>Collector</td>
+          <td>Convergent Healthcare Recoveries</td>
         </tr>
       </tbody>
     </table>
